@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 export default function Navbar() {
 
-    const { logout, error, isPending } = useLogout();
+    const { logout } = useLogout();
     const { user } = useAuthContext();
 
     return (
